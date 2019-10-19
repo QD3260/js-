@@ -26,28 +26,3 @@
 
 3）可以通过点表示法访问对象的属性，也可以使用方括号表示法来访问对象的属性；
 
-ES6新增数据类型：Map，Set，Generator，Symbol
-本地对象：ECMA-262 把本地对象（native object）定义为“独立于宿主环境的 ECMAScript 实现提供的对象”，即本地对象就是 ECMA-262 定义的类（引用类型）；
-宿主对象：宿主”就是我们网页的运行环境，即“操作系统”和“浏览器”，所有非本地对象都是宿主对象（host object），即由 ECMAScript 实现的宿主环境提供的对象，所有的BOM和DOM对象都是宿主对象，因为其对于不同的“宿主”环境所展示的内容不同，即ECMAScript官方未定义的对象都属于宿主对象，因为其未定义的对象大多数是自己通过ECMAScript程序创建的对象；
-JS内置对象：是指JS语言自带的一些对象，供开发者使用，这些对象提供了一些常用的或是最基本而必要的功能；
-1、Arguments：函数参数集合；
-2、Array对象：length,instanceof,isArray(),toString()返回字符串,valueOf()返回数组的值,join()可以将数组转为字符串,push(),pop(),shift(),unshift(),reverse(),sort(),
-slice(),splice(),indexOf(),lastIndexOf(),迭every(),filter(),forEach(),map(),some(),
-归并方法reduce(),reduceRight()；
-3、Boolean：布尔对象；
-4、Error：异常对象；
-5、Number：数值对象；
-6、String对象：length,charAt()返回指定位置的字符,concat(),slice(),subString(),
-subStr(),indexOf(),lastIndexOf(),trim(),toLowerCase(),toUpperCase(),split(),
-text.match(),text.splice()；
-7、Date对象：toUTCstring(),getTime()；
-8、RegExp对象：test()；
-9、Function对象：arguments,this,apply(this,arguments),call(this,num1,num2)；
-10、Math对象：min(),max(),ceil(),floor(),round(),random()；
-11、Global对象：encodeURI,encodeURIComponent，parseInt(),eval()；
-12、Object对象：prototype,constructor；
-基本包装类型：Boolean,Number,String
-1、转换为数值：parseInt()专门用于把字符串转换成数值,Number()用于任何类型；
-2、非字符转换成字符：toString()；
-3、数组转成字符：join()；
-4、字符串转换成数组：split()；
